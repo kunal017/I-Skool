@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App2.noticeparent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF73E6E1">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Left" Margin="10,140,0,0" TextWrapping="Wrap" Text="Student's ID" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='2' x:Name="textBox" HorizontalAlignment="Left" Margin="208,140,0,0" TextWrapping="Wrap" PlaceholderText="Student's ID" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='3' x:Name="textBox2" HorizontalAlignment="Left" Margin="170,241,10,0" Height="150" Width="180" TextWrapping="Wrap" PlaceholderText="Message" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='4' x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,246,0,0" TextWrapping="Wrap" Text="Message Here" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='5' x:Name="textBlock2" HorizontalAlignment="Center" Margin="56,40,56,0" FontSize="24" TextWrapping="Wrap" Text="Send Notice" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='6' x:Name="button"                 Content="Send" HorizontalAlignment="Left" Margin="170,457,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

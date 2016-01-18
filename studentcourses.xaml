@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="App2.studentcourses"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF73E6E1">
+        <Button x:Name="button" Click="english" Content="Button" Visibility="Collapsed" HorizontalAlignment="Center"  Margin="56,120,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <Button x:Name="button1" Click="hindi" Content="Button" Visibility="Collapsed" HorizontalAlignment="Center"  Margin="56,190,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <Button x:Name="button2" Click="maths" Content="Button" Visibility="Collapsed" HorizontalAlignment="Center"  Margin="56,260,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <Button x:Name="button3" Click="science" Content="Button" Visibility="Collapsed" HorizontalAlignment="Center"  Margin="56,330,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <Button x:Name="button4" Click="socialstudies" Content="Button" Visibility="Collapsed" HorizontalAlignment="Center"  Margin="56,400,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <Button x:Name="button5" Content="computerscience" Visibility="Collapsed" HorizontalAlignment="Center" Margin="56,470,56,0" Width="180" VerticalAlignment="Top" Height="50"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Center" Margin="56,28,56,0" TextWrapping="Wrap" FontSize="34" Text="Your Courses" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>

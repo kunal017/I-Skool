@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="App2.updateper"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="#FF73E6E1">
+        <TextBlock x:ConnectionId='1' x:Name="textBlock" HorizontalAlignment="Center" Margin="56,79,56,0" TextWrapping="Wrap" FontSize="22" Text="Update Performance/Attendance" VerticalAlignment="Top"/>
+        <TextBlock x:ConnectionId='2' x:Name="textBlock1" HorizontalAlignment="Left" Margin="76,239,0,0" TextWrapping="Wrap" FontSize="18" Text="Enter School ID of student" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='3' x:Name="textBox" HorizontalAlignment="Left" Margin="76,300,0,0" TextWrapping="Wrap" PlaceholderText="School ID" Width="170" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4' x:Name="button" Content="Proceed"                      HorizontalAlignment="Left" Margin="76,398,0,0" VerticalAlignment="Top"/>
+        <TextBox x:ConnectionId='5' x:Name="textBox1" HorizontalAlignment="Center" Background="#FF73E6E1" Margin="56,172,0,56" BorderThickness="0" Foreground="Red" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+
